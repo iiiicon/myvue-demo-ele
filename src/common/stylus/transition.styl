@@ -1,0 +1,22 @@
+//fade
+.fade-enter-active, .fade-leave-active
+  transition: opacity .5s
+.fade-enter, .fade-leave-active
+  opacity: 0
+
+//slide-X24 and rotate(180)
+.slideX24-enter-active, .slideX24-leave-active
+  opacity: 1
+  transition: all .4s
+  transform: translate3d(0, 0, 0)
+.slideX24-enter, .slideX24-leave-active
+  opacity: 0
+  transform: translate3d(24px, 0, 0)
+
+// rotate 180
+.rotate180-enter-active, .rotate180-leave-active
+  transition: all .4s
+  transform: rotate(0)
+.rotate180-enter, .rotate180-leave-active
+  transform: rotate(90deg)
+  
